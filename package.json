@@ -4,7 +4,7 @@
   "description": "This is a wdio project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio ./wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,9 @@
     "@wdio/sync": "^6.1.14",
     "chai": "^4.2.0",
     "chai-webdriverio": "^1.0.0",
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
     "local-runner": "^0.1.1-alpha",
     "webdriverio": "^6.1.19"
   },
