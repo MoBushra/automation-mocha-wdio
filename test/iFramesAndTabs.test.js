@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
-const iFramePage = require('../../pages/iFrame.page');
+const iFramePage = require('../pages/iFrame.page');
 const { assert } = require('chai');
-const newWindowPage = require('../../pages/newWindow.page');
+const newWindowPage = require('../pages/newWindow.page');
 
 describe('Switch to the iFrame and new tab', () => {
 	it('Should switch to new tab', () => {

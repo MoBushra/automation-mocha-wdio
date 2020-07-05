@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const { expect } = require('chai');
-const homePage = require('../../pages/home.page');
-const checkoutPage = require('../../pages/checkout.page');
+const homePage = require('../pages/home.page');
+const checkoutPage = require('../pages/checkout.page');
 
 
 describe('Testing home page element actions', () => {

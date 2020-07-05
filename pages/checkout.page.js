@@ -1,4 +1,5 @@
 /* eslint-disable no-undef */
+
 class checkoutPage {
 	// Step 1: Checkout Options elements
 	get registerAccountRadioBtn() { return $('#accordion .radio:nth-child(3) label');}

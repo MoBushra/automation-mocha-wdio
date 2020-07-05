@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const homePage = require('../../pages/home.page');
+const homePage = require('../pages/home.page');
 
 // See which currency is set on the website
 describe('Interacting with home page elements', () => {

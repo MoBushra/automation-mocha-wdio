@@ -1,6 +1,6 @@
 module.exports = {
 	signInAccount: {
-		email: 'tets_friday@test.com',
+		email: 'email@domain.com',
 		password: 'test12345',
 	}
 };
