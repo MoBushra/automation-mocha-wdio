@@ -8,9 +8,8 @@ class loginPage {
 	get forgotPasswordLnk() { return $('form[method="post"]  a'); }
 	get loginBtn() { return $('[action] .btn-primary'); }
     
-	loginUser(index) {
-		let email = loginCredentials.signInAccount.email;
-		let password = loginCredentials.signInAccount.password;
+	loginUser(index,email = loginCredentials.signInAccount.email,
+		password = loginCredentials.signInAccount.password) {
 		homePage.myAccountDropdown.click();
 		homePage.myAccountDropdownOptions(index).click();
 		this.emailInputElem.waitForEnabled();
